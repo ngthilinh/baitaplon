@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SƠN TÙNG - M-TP</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            background:white; 
+        }
+        
+        body{
+            background: white;
+            width: 1000px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        
+        #running{
+            width: 1000px;
+            height: 35px;
+            background:#E0AF3E;
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            line-height:35px;
+        }
+        
+        #banner{
+            background: red;
+            height: 350px;
+            width: 1000px;
+        }
+        #banner img{
+            height:100%;
+            width:100%;
+        }
+        #menu{
+            width:1000px;
+            height: 80px;
+            background:#E0AF3E;
+        }
+        #menu ul{
+            margin:0px;
+            padding:0px;
+
+        }
+        #menu ul li{
+            list-style:none;
+            float:left;
+            position:relative;
+           
+        }
+        #menu ul > li > a {
+            text-decoration:none;
+            color: black;
+            padding: 0px 15px 0 px 15px;
+            line-height:40px;
+            display:block;
+        }
+        #menu ul > li > a:hover{
+            background:rgb(158, 5, 5);
+            transition:ease-in 0.35s;
+        }
+       
+        #main #left {
+            width: 60%;
+            background:green;
+            height: 500px;
+            float:left;
+            clear:both;
+        }
+
+        #main #right {
+            width: 40%;
+            background: blue;
+            height: 500px;
+            float:left;
+        }
+
+        #link {
+            width:1000px;
+            background: pink;
+            height: 230px;
+            clear:both;
+        }
+
+        #footer {
+            width:1000px;
+            height: 190px;
+            background:blueviolet;
+
+        }
+
+    </style>
+</head>
+<body>
+    <marquee direction="left" id="running">
+        <p style="color: white ; font-size: 16px; "> Sơn Tùng M-TP sẽ quay trở lại vào tháng 11 tới với sự remix một loạt các bản hit đã từng làm mưa làm gió trên thị trường nhạc Việt.
+            <a href="" style="color:rgb(236, 51, 18);">Đặt mua ablum ngay</a></p> 
+    </marquee>
+
+    <div id="banner">
+        <img src="./bia.jpg" alt="">
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#" title="Trang chủ">TRANG CHỦ</a></li>
+            <li><a href="#" title="Giới thiệu">GIỚI THIỆU</a></li>
+                <ul class="sub-menu">
+                    <li><a href="">TIỂU SỬ</a></li>
+                    <li><a href="">HOẠT ĐỘNG</a></li>
+                </ul>    
+            <li><a href="#" title="Tác phẩm">TÁC PHẨM</a></li>
+                <ul class="sub-menu">
+                    <li><a href="">ALBUM CA NHẠC</a></li>
+                    <li><a href="">MV</a></li>
+                </ul>
+            <li><a href="#" title="Concert">CONCERT</a></li>
+                <ul class="sub-menu">
+                    <li><a href="">VIỆT NAM</a></li>
+                    <li><a href="">NƯỚC NGOÀI</a></li>
+                </ul>
+            <li><a href="#" title="Contact">CONTACT</a></li>
+                <ul class="sub-menu">
+                    <li><a href="">MUA ALBUM</a></li>
+                    <li><a href="">M-TP ENTERTAINMENT</a></li>
+                </ul>
+            </li>
+        </ul>    
+    </div>
+        
+
+    </div>
+    <div id="main">
+        <div id="left">Left</div>
+        <div id="right">Right</div>
+    </div>
+
+    <div id="link">Liên kết</div>
+    <div id="footer">Footer</div>
+
+</body>
+</html>
